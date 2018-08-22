@@ -5,7 +5,7 @@ import xlwt
 from xlutils.copy import copy
 
 def stopwordslist(filepath):
-    stopwords=[line.strip() for line in open(filepath, 'r').readlines()]
+    stopwords=[line.strip() for line in open(filepath, 'r', encoding='gbk').readlines()]
     for i in stopwords:
        if i=='':
             stopwords.remove(i)
@@ -24,7 +24,7 @@ def seg_sentence(sentence):
     return outstr
 
 def main():
-    rb = xlrd.open_workbook(r'E:\Python\Python_work\python_crawler\haha4040.xlsx')
+    rb = xlrd.open_workbook(r'/home/gpx/PycharmProjects/Python_work/python_crawler/haha4040.xlsx')
     sheet1 = rb.sheet_by_index(0)
     wb = copy(rb)
     sheet2 = wb.get_sheet(0)

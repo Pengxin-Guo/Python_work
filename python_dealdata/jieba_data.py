@@ -3,7 +3,7 @@ from collections import Counter
 from xlutils.copy import copy
 
 def stopwordslist(filepath):
-    stopwords=[line.strip() for line in open(filepath, 'r').readlines()]
+    stopwords=[line.strip() for line in open(filepath, 'r', encoding='gbk').readlines()]
     for i in stopwords:
        if i=='':
             stopwords.remove(i)
@@ -12,7 +12,7 @@ def stopwordslist(filepath):
 
 def seg_sentence(sentence):
     sentence_seged = jieba.cut(sentence.strip())
-    stopwords = stopwordslist('E:\Python\Python_work\python_jieba\discontinuation_words.txt')
+    stopwords = stopwordslist('/home/gpx/PycharmProjects/Python_work/python_jieba/discontinuation_words.txt')
     stopword = {"\\", "n","学校","工作","学院","我校"}
     outstr = ''
     for word in sentence_seged:
@@ -24,7 +24,7 @@ def seg_sentence(sentence):
 
 
 def main():
-    datapath = "E:\Python\Python_work\python_scikit_learn\cluster_content.txt"
+    datapath = "/home/gpx/PycharmProjects/Python_work/python_scikit_learn/cluster_content.txt"
     fp = open(datapath,encoding='utf-8')
     data  = []
     for lines in fp.readlines():

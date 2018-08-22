@@ -1,7 +1,7 @@
 import xlrd
 from Kmeans import clf_labels
 from Kmeans import n_cluster
-rb = xlrd.open_workbook(r'E:\Python\Python_work\python_jieba\jieba_news_nefu.xlsx')
+rb = xlrd.open_workbook(r'/home/gpx/PycharmProjects/Python_work/python_jieba/jieba_news_nefu.xlsx')
 sheet1 = rb.sheet_by_index(0)
 labels1=[]
 labels2=[]

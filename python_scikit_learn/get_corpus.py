@@ -1,6 +1,6 @@
 import xlrd
 
-rb = xlrd.open_workbook(r'E:\Python\Python_work\python_jieba\jieba_news_nefu.xlsx')
+rb = xlrd.open_workbook(r'/home/gpx/PycharmProjects/Python_work/python_jieba/jieba_news_nefu.xlsx')
 sheet = rb.sheet_by_index(0)
 strs=''
 for i in range(1,1000):
