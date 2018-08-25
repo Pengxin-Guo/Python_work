@@ -1,4 +1,4 @@
-f = open("content_jieba.txt",encoding='utf-8');
+f = open("./content_jieba.txt",encoding='utf-8');
 count = {}
 for line in f:
     line = line.strip('n')
