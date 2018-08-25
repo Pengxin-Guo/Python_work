@@ -25,7 +25,7 @@ if __name__ == "__main__":
     corpus = []  # 文档预料 空格连接
 
     # 读取预料 一行预料为一个文档
-    for line in open('corpus_nefu.txt', 'r',encoding='utf-8').readlines():
+    for line in open('./corpus_nefu.txt', 'r',encoding='utf-8').readlines():
         print(line)
         corpus.append(line.strip())
     #print(corpus)
