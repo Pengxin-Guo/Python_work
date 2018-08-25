@@ -10,9 +10,9 @@ def getNewsDetail(newsurl):
     res = requests.get(newsurl)
     res.encoding = 'utf-8'
     soup = BeautifulSoup(res.text, 'html.parser')
-    result['1_title'] = ' '.join([h.text.strip() for h in soup.select('.article h1')[:]])   # 标题
+    result['1_title'] = ' '.join([h.text.strip() for h in soup.select('.article h1')[:]])     # 标题
     result['2_article'] = ' '.join([p.text.strip() for p in soup.select('.article p')[:-1]])  # 正文
-    #result['3_editor'] = soup.select('.article p')[-1].text  # 编辑
+    #result['3_editor'] = soup.select('.article p')[-1].text                                  # 编辑
     return result
 
 
@@ -32,7 +32,7 @@ def main():
             news_total.append(newsary)
     df = pandas.DataFrame(news_total)
     # print(df)
-    df.to_excel('news.xlsx')  # 将数据保存到Excel中
+    df.to_excel('news.xlsx')         # 将数据保存到Excel中
     # 下面是将数据存到数据库中
     # with sqlite3.connect('news.sqlite') as db:
     #    df.to_sql('news1',con=db)
