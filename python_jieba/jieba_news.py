@@ -14,7 +14,7 @@ def stopwordslist(filepath):
 
 def seg_sentence(sentence):
     sentence_seged = jieba.cut(sentence.strip())
-    stopwords = stopwordslist('discontinuation_words.txt')
+    stopwords = stopwordslist('./discontinuation_words.txt')
     outstr = ''
     for word in sentence_seged:
         if word not in stopwords:
@@ -24,7 +24,7 @@ def seg_sentence(sentence):
     return outstr
 
 def main():
-    rb = xlrd.open_workbook(r'/home/gpx/PycharmProjects/Python_work/python_crawler/haha4040.xlsx')
+    rb = xlrd.open_workbook(r'../python_crawler/haha4040.xlsx')
     sheet1 = rb.sheet_by_index(0)
     wb = copy(rb)
     sheet2 = wb.get_sheet(0)
@@ -33,5 +33,5 @@ def main():
         outstr = seg_sentence(sentence)
         print(outstr)
         sheet2.write(i, 5, outstr)
-    wb.save(r'jieba_news_nefu.xlsx')
+    wb.save(r'./jieba_news_nefu.xlsx')
 main()
