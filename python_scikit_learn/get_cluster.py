@@ -1,6 +1,6 @@
 import xlrd
-from K-means import clf_labels
-from K-means import n_cluster
+from K_means import clf_labels
+from K_means import n_cluster
 rb = xlrd.open_workbook(r'../python_jieba/jieba_news_nefu.xlsx')
 sheet1 = rb.sheet_by_index(0)
 labels1=[]
