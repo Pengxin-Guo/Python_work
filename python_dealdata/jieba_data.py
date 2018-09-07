@@ -13,11 +13,11 @@ def stopwordslist(filepath):
 def seg_sentence(sentence):
     sentence_seged = jieba.cut(sentence.strip())
     stopwords = stopwordslist('../python_jieba/discontinuation_words.txt')
-    stopword = {"\\", "n","学校","工作","学院","我校"}
+    stopword = {"\\", "n", "学校", "工作", "学院", "我校"}
     outstr = ''
     for word in sentence_seged:
         if word not in stopwords and word not in stopword:
-            if (word != '\t') & (word!='text'):
+            if (word != '\t') & (word !='text'):
                 outstr += word
                 outstr += " "
     return outstr
@@ -25,8 +25,8 @@ def seg_sentence(sentence):
 
 def main():
     datapath = "../python_scikit_learn/cluster_content.txt"
-    fp = open(datapath,encoding='utf-8')
-    data  = []
+    fp = open(datapath, encoding='utf-8')
+    data = []
     for lines in fp.readlines():
         lines = lines.replace("\n", "").split(",")
         data.append(lines)

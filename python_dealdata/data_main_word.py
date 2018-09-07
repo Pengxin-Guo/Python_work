@@ -1,4 +1,4 @@
-f = open("./content_jieba.txt",encoding='utf-8');
+f = open("./content_jieba.txt", encoding='utf-8')
 count = {}
 for line in f:
     line = line.strip('n')
@@ -11,8 +11,8 @@ for line in f:
     word_freq = []
     # 遍历字典转换为元组
     for word, freq in count.items():
-        word_freq.append((freq, word));
-    word_freq.sort(reverse=True);
+        word_freq.append((freq, word))
+    word_freq.sort(reverse=True)
     # 遍历前十个输出
     for word, freq in word_freq[:30]:
         print(word, freq, end=" ")
