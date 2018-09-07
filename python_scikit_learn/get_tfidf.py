@@ -10,7 +10,7 @@ from sklearn import feature_extraction
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.feature_extraction.text import CountVectorizer
 
-''''' 
+'''
 sklearn里面的TF-IDF主要用到了两个函数：CountVectorizer()和TfidfTransformer()。 
     CountVectorizer是通过fit_transform函数将文本中的词语转换为词频矩阵。 
     矩阵元素weight[i][j] 表示j词在第i个文本下的词频，即各个词语出现的次数。 
