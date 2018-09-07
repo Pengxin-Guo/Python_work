@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 def getHTMLText(url):
     try:
-        r = requests.get(url, timeout = 30)
+        r = requests.get(url, timeout=30)
         r.raise_for_status()
         #r.encoding = 'utf-8'
         return r.text
@@ -35,13 +35,13 @@ def getContent(url):
     fo.close()
     #将爬取到的文章用字典格式来存
     article = {
-        'Title' : title[0].get_text(),
-        'Time' : time[0].get_text(),
-        'Paragraph' : paras,
-        'Author' : author[0].get_text()
+        'Title': title[0].get_text(),
+        'Time': time[0].get_text(),
+        'Paragraph': paras,
+        'Author': author[0].get_text()
     }
     print(article)
 def main():
     url = "http://news.qq.com/a/20170504/012032.htm"
-    getContent(url);
+    getContent(url)
 main()
