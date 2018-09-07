@@ -21,7 +21,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 corpus = []  # 文档预料 空格连接
 
 # 读取预料 一行预料为一个文档
-for line in open('./corpus_nefu.txt', 'r',encoding='utf-8').readlines():
+for line in open('./corpus_nefu.txt', 'r', encoding='utf-8').readlines():
     print(line)  #显示每一条新闻
     corpus.append(line.strip())
     # print corpus
@@ -64,10 +64,11 @@ print('Start Kmeans:')
 from sklearn.cluster import KMeans
 ########################################################################
 #这儿为改进部分，利用肘部法则确定最优K值
-"""import matplotlib.pyplot as plt
+# """
+import matplotlib.pyplot as plt
 from matplotlib.font_manager import FontProperties
-#font = FontProperties(fname=r"/usr/share/fonts/opentype/noto/NotoSerifCJK-Regular.ttc", size=10) #deepin中的字体
-font = FontProperties(fname=r"C:\Windows\Fonts\STSONG.TTF", size=10) #Windows中的字体
+font = FontProperties(fname=r"/usr/share/fonts/opentype/noto/NotoSerifCJK-Regular.ttc", size=10)  #deepin中的字体
+# font = FontProperties(fname=r"C:\Windows\Fonts\STSONG.TTF", size=10)                              #Windows中的字体
 from scipy.spatial.distance import cdist
 K=range(1,10)
 meandistortions=[]
@@ -75,13 +76,13 @@ for k in K:
     print("k=%d 聚类ing"%(k))
     kmeans=KMeans(n_clusters=k)
     kmeans.fit(weight)
-    meandistortions.append(sum(np.min(cdist(weight,kmeans.cluster_centers_,'euclidean'),axis=1))/weight.shape[0])
-plt.plot(K,meandistortions,'bx-')
+    meandistortions.append(sum(np.min(cdist(weight, kmeans.cluster_centers_, 'euclidean'), axis=1))/weight.shape[0])
+plt.plot(K,meandistortions, 'bx-')
 plt.xlabel('k')
-plt.ylabel(u'平均畸变程度',fontproperties=font)
-plt.title(u'用肘部法则来确定最佳的K值',fontproperties=font)
+plt.ylabel(u'平均畸变程度', fontproperties=font)
+plt.title(u'用肘部法则来确定最佳的K值', fontproperties=font)
 plt.show()
-"""
+# """
 
 
 ########################################################################

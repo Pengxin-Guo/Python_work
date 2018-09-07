@@ -7,7 +7,7 @@ from xlutils.copy import copy
 def stopwordslist(filepath):
     stopwords=[line.strip() for line in open(filepath, 'r', encoding='gbk').readlines()]
     for i in stopwords:
-       if i=='':
+       if i == '':
             stopwords.remove(i)
     stopwords.append('')
     return stopwords
