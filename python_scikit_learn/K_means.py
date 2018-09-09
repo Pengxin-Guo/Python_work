@@ -87,7 +87,7 @@ plt.show()
 
 ########################################################################
 #下方为原始算法
-n_cluster=5  #引入n_cluster方便其他py文件引用
+n_cluster = 5                         #引入n_cluster方便其他py文件引用
 clf = KMeans(n_clusters=n_cluster)
 s = clf.fit(weight)
 print(s)
@@ -95,7 +95,7 @@ print(s)
 # 5个中心点
 print("下面为5个中心点")
 print(clf.cluster_centers_)
-clf_labels=clf.labels_   #引入clf_labels方便其他py文件引用这个变量
+clf_labels=clf.labels_                #引入clf_labels方便其他py文件引用这个变量
 # 每个样本所属的簇
 print(clf.labels_)
 i = 0

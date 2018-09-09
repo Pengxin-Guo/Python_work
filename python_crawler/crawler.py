@@ -9,6 +9,7 @@ def getHTMLText(url):
         return r.text
     except:
         return ""
+
 def getContent(url):
     html = getHTMLText(url)
     # print(html)
@@ -44,4 +45,5 @@ def getContent(url):
 def main():
     url = "http://news.qq.com/a/20170504/012032.htm"
     getContent(url)
+
 main()
