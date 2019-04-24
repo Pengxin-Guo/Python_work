@@ -1,7 +1,4 @@
 # coding=utf-8
-"""
-Created on 2016-01-06 @author: Eastmount
-"""
 
 import time
 import re
