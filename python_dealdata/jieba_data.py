@@ -1,11 +1,9 @@
 import jieba
-from collections import Counter
-from xlutils.copy import copy
 
 def stopwordslist(filepath):
-    stopwords=[line.strip() for line in open(filepath, 'r', encoding='gbk').readlines()]
+    stopwords = [line.strip() for line in open(filepath, 'r', encoding='gbk').readlines()]
     for i in stopwords:
-       if i=='':
+       if i == '':
             stopwords.remove(i)
     stopwords.append('')
     return stopwords
@@ -17,11 +15,10 @@ def seg_sentence(sentence):
     outstr = ''
     for word in sentence_seged:
         if word not in stopwords and word not in stopword:
-            if (word != '\t') & (word !='text'):
+            if (word != '\t') & (word != 'text'):
                 outstr += word
                 outstr += " "
     return outstr
-
 
 def main():
     datapath = "../python_scikit_learn/cluster_content.txt"
@@ -31,15 +28,6 @@ def main():
         lines = lines.replace("\n", "").split(",")
         data.append(lines)
     fp.close()
-    #sheet1 = rb.sheet_by_index(0)
-    #wb = copy(rb)
-    #sheet2 = wb.get_sheet(0)
-    #for i in range(1, 4040):
-    #    sentence = str(sheet1.cell(i, 3))
-    #    outstr = seg_sentence(sentence)
-    #    print(outstr)
-    #   sheet2.write(i, 5, outstr)
-    #wb.save(r'jieba_news_nefu.xlsx')
     data_jieba = []
     for data_sen in data:
         data_sentence = str(data_sen)

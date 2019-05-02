@@ -2,10 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e17a108d-3ceb-475a-ba76-d3f56d5a7abb" name="Default Changelist" comment="modify some files and run get_cluster.py again">
-      <change beforePath="$PROJECT_DIR$/.idea/Python_work.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_work.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_crawler/add_data_excel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_crawler/crawler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_crawler/crawler_content.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_crawler/crawler_geturl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_crawler/crawler_title.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_crawler/crawler_tsinghua.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_crawler/getNewsDetail.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_crawler/haha4040.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_crawler/text.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_dealdata/content_jieba.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python_dealdata/content_jieba.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_dealdata/jieba_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_dealdata/jieba_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_jieba/jieba_news.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_jieba/jieba_news.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_jieba/jieba_news_nefu.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/python_scikit_learn/K_means.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_scikit_learn/K_means.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_scikit_learn/Tfidf_Result_nefu.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_scikit_learn/cluster_content.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python_scikit_learn/cluster_content.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_scikit_learn/cluster_id.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python_scikit_learn/cluster_id.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_scikit_learn/corpus_nefu.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_scikit_learn/get_cluster.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_scikit_learn/get_cluster.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_scikit_learn/get_corpus.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_scikit_learn/get_tfidf.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_scikit_learn/get_tfidf.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,26 +41,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_crawler/crawler_tsinghua.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_crawler/getNewsDetail.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python_dealdata/data_main_word.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="513">
@@ -54,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/python_dealdata/jieba_data.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="27">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="16" />
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -62,18 +61,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python_jieba/jieba_news.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="972">
-              <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+            <state relative-caret-position="891">
+              <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_scikit_learn/corpus_nefu.txt">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -89,19 +83,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_scikit_learn/get_corpus.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python_scikit_learn/get_tfidf.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="243">
-              <caret line="9" column="12" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="12" />
+              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -110,10 +95,7 @@
         <entry file="file://$PROJECT_DIR$/python_scikit_learn/K_means.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="27">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="e#65#76#0" expanded="true" />
-              </folding>
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -293,6 +275,7 @@
       <updated>1536329919280</updated>
       <workItem from="1556074566097" duration="1921000" />
       <workItem from="1556076611425" duration="1170000" />
+      <workItem from="1556758517848" duration="201000" />
     </task>
     <task id="LOCAL-00001" summary="modify some files and run get_cluster.py again">
       <created>1536486427031</created>
@@ -305,13 +288,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3091000" />
+    <option name="totallyTimeSpent" value="3292000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21099435" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21422797" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -423,14 +405,14 @@
     <entry file="file://$PROJECT_DIR$/python_dealdata/jieba_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="16" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python_jieba/jieba_news.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+        <state relative-caret-position="891">
+          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
@@ -460,17 +442,14 @@
     <entry file="file://$PROJECT_DIR$/python_scikit_learn/get_tfidf.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="12" />
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python_scikit_learn/K_means.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#65#76#0" expanded="true" />
-          </folding>
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
