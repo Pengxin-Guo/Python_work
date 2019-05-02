@@ -1,6 +1,8 @@
+from builtins import len, range
 from datetime import datetime
 import urllib.request
-import ssl
+from locale import str
+
 import pandas
 from bs4 import BeautifulSoup
 global a

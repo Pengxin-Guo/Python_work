@@ -1,30 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e17a108d-3ceb-475a-ba76-d3f56d5a7abb" name="Default Changelist" comment="modify some files and run get_cluster.py again">
+    <list default="true" id="e17a108d-3ceb-475a-ba76-d3f56d5a7abb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_crawler/add_data_excel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_crawler/crawler.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_crawler/crawler_content.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_crawler/crawler_geturl.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_crawler/crawler_title.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_crawler/crawler_tsinghua.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_crawler/getNewsDetail.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_crawler/haha4040.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_crawler/text.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_dealdata/content_jieba.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python_dealdata/content_jieba.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_dealdata/jieba_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_dealdata/jieba_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_jieba/jieba_news.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_jieba/jieba_news.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_jieba/jieba_news_nefu.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_scikit_learn/K_means.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_scikit_learn/K_means.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_scikit_learn/Tfidf_Result_nefu.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_scikit_learn/cluster_content.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python_scikit_learn/cluster_content.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_scikit_learn/cluster_id.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python_scikit_learn/cluster_id.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_scikit_learn/corpus_nefu.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_scikit_learn/get_cluster.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_scikit_learn/get_cluster.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_scikit_learn/get_corpus.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_scikit_learn/get_tfidf.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_scikit_learn/get_tfidf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_crawler/crawler_news.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_crawler/crawler_news.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_dealdata/change_xlsx_to_txt.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_dealdata/change_xlsx_to_txt.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python_dealdata/data_main_word.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="27">
+              <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -91,11 +71,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python_scikit_learn/K_means.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="320">
+              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_crawler/crawler_news.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-162">
+              <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_dealdata/change_xlsx_to_txt.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,13 +114,15 @@
       <list>
         <option value="$PROJECT_DIR$/python_scikit_learn/get_corpus.py" />
         <option value="$PROJECT_DIR$/python_crawler/crawler_title.py" />
-        <option value="$PROJECT_DIR$/python_dealdata/data_main_word.py" />
         <option value="$PROJECT_DIR$/python_crawler/crawler.py" />
         <option value="$PROJECT_DIR$/python_dealdata/jieba_data.py" />
         <option value="$PROJECT_DIR$/python_jieba/jieba_news.py" />
         <option value="$PROJECT_DIR$/python_scikit_learn/get_cluster.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/python_scikit_learn/K_means.py" />
+        <option value="$PROJECT_DIR$/python_crawler/crawler_news.py" />
+        <option value="$PROJECT_DIR$/python_dealdata/change_xlsx_to_txt.py" />
+        <option value="$PROJECT_DIR$/python_dealdata/data_main_word.py" />
       </list>
     </option>
   </component>
@@ -183,7 +189,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.get_cluster">
+  <component name="RunManager" selected="Python.data_main_word">
+    <configuration name="crawler_news" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_work" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_crawler" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_crawler/crawler_news.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="data_main_word" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_work" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_dealdata" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_dealdata/data_main_word.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="get_cluster" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_work" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -254,9 +304,13 @@
       <item itemvalue="Python.get_corpus" />
       <item itemvalue="Python.get_tfidf" />
       <item itemvalue="Python.get_cluster" />
+      <item itemvalue="Python.crawler_news" />
+      <item itemvalue="Python.data_main_word" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.data_main_word" />
+        <item itemvalue="Python.crawler_news" />
         <item itemvalue="Python.get_cluster" />
         <item itemvalue="Python.get_corpus" />
         <item itemvalue="Python.get_tfidf" />
@@ -275,7 +329,7 @@
       <updated>1536329919280</updated>
       <workItem from="1556074566097" duration="1921000" />
       <workItem from="1556076611425" duration="1170000" />
-      <workItem from="1556758517848" duration="201000" />
+      <workItem from="1556758517848" duration="725000" />
     </task>
     <task id="LOCAL-00001" summary="modify some files and run get_cluster.py again">
       <created>1536486427031</created>
@@ -284,21 +338,43 @@
       <option name="project" value="LOCAL" />
       <updated>1536486427034</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="modify some files and run get_cluster.py again">
+      <created>1556758763030</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556758763030</updated>
+    </task>
+    <task id="LOCAL-00003" summary="finish the project">
+      <created>1556758835247</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1556758835247</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update README.md">
+      <created>1556758982150</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1556758982150</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3292000" />
+    <option name="totallyTimeSpent" value="3816000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21422797" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21422797" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32997763" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3283582" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -321,7 +397,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="modify some files and run get_cluster.py again" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify some files and run get_cluster.py again" />
+    <MESSAGE value="finish the project" />
+    <MESSAGE value="update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python_work$crawler_news.coverage" NAME="crawler_news Coverage Results" MODIFIED="1556759060519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_crawler" />
+    <SUITE FILE_PATH="coverage/Python_work$data_main_word.coverage" NAME="data_main_word Coverage Results" MODIFIED="1556759257572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_dealdata" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -395,13 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_dealdata/data_main_word.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python_dealdata/jieba_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -448,8 +523,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python_scikit_learn/K_means.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_dealdata/change_xlsx_to_txt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_crawler/crawler_news.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_dealdata/data_main_word.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
         </state>
       </provider>
     </entry>

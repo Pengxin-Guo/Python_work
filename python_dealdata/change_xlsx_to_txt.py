@@ -1,3 +1,5 @@
+from builtins import range, open
+
 import xlrd
 
 rb = xlrd.open_workbook(r'../python_jieba/jieba_nefu_news.xlsx')
