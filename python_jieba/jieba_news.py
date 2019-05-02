@@ -26,7 +26,7 @@ def main():
     sheet1 = rb.sheet_by_index(0)
     wb = copy(rb)
     sheet2 = wb.get_sheet(0)
-    for i in range(1, 4867):
+    for i in range(1, 4879):
         sentence = str(sheet1.cell(i, 3))
         outstr = seg_sentence(sentence)
         print("正在结巴切词第" + str(i) + "条新闻")
