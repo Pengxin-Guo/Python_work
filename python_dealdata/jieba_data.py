@@ -1,5 +1,6 @@
 import jieba
 
+
 def stopwordslist(filepath):
     stopwords = [line.strip() for line in open(filepath, 'r', encoding='gbk').readlines()]
     for i in stopwords:
@@ -7,6 +8,7 @@ def stopwordslist(filepath):
             stopwords.remove(i)
     stopwords.append('')
     return stopwords
+
 
 def seg_sentence(sentence):
     sentence_seged = jieba.cut(sentence.strip())
@@ -19,6 +21,7 @@ def seg_sentence(sentence):
                 outstr += word
                 outstr += " "
     return outstr
+
 
 def main():
     datapath = "../python_scikit_learn/cluster_content.txt"
@@ -38,4 +41,6 @@ def main():
     for data in data_jieba:
         f.write(data)
         f.write('\n')
+
+
 main()

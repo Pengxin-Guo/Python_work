@@ -18,7 +18,7 @@ def main():
     for line in open('../python_dealdata/nefu_news.txt', 'r', encoding='utf-8').readlines():
         print(line)
         corpus.append(line.strip())
-    #time.sleep(5)
+    # time.sleep(5)
 
     # 将文本中的词语转换为词频矩阵 矩阵元素a[i][j] 表示j词在i类文本下的词频
     vectorizer = CountVectorizer()
@@ -48,5 +48,6 @@ def main():
             result.write(str(weight[i][j]) + ' ')
         result.write('\r\n\r\n')
     result.close()
+
 
 main()
